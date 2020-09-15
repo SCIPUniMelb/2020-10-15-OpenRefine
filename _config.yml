@@ -7,7 +7,7 @@
 
 # Which carpentry is this ("swc", "dc", "lc", or "cp")?
 # swc: Software Carpentry
-#  dc: Data Carpentry
+dc: Data Carpentry
 #  lc: Library Carpentry
 #  cp: Carpentries (to use for instructor training for instance)
 # Note that for regular workshops, you should use:
@@ -23,7 +23,7 @@ carpentry: "swc"
 # Possible values are:
 # dc-ecology: for Data Carpentry Ecology workshops
 # dc-genomics: for Data Carpentry Genomics
-# dc-socsci: for Data Carpentry Social Sciences
+dc-socsci: for Data Carpentry Social Sciences
 # dc-geospatial: for Data Carpentry Geospatial
 # swc-inflammation: for Software Carpentry based on the inflammation dataset
 # swc-gapminder: for Software Carpentry based on the Gapminder dataset
@@ -43,7 +43,7 @@ flavor: "FIXME"
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Workshop Title"
+title: "OpenRefine for Social Science Data"
 
 
 #------------------------------------------------------------
