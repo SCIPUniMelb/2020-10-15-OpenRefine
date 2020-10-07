@@ -57,17 +57,17 @@ This block includes the Eventbrite registration widget if
 are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
-{% if page.eventbrite %}
+
+<h3>Please register using the <a href="https://forms.gle/hnDD1kRcNkiFefKK7" target="_blank">Google form below</a> in order to receive the Zoom link for the session by email</h3>
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 <iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  src="https://forms.gle/hnDD1kRcNkiFefKK7"
   frameborder="0"
   width="100%"
-  height="280px"
+  height="350px"
   scrolling="auto">
 </iframe>
-{% endif %}
 
 
 <h2 id="general">General Information</h2>
